@@ -1,7 +1,6 @@
 <span>Items for category: "{{$ctrl.name}}"</span>
-<ol>
+<ul>
   <li ng-repeat="item in $ctrl.items">
-    {{ item.name }} {{ item.description }} <br>
-    {{item}}
-  </li>
-</ol>
+    <b>{{ item.name }} </b> <i>({{ item.description }})</i> 
+   </li>
+</ul>

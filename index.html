@@ -6,16 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body ng-app='MenuApp'>
-<!-- <div ng-controller = 'MenuAppController as menu'> -->
+
+<h1>Welcome to our restaurant!</h1>
 <ui-view></ui-view>
-
-
-
-<!-- <div ng-controller='MenuAppController as menu'> 
-
-<categories categories = 'menu.categories'></categories>
-<items items = 'menu.items'></items>
-</div> -->
 
 <!-- Libraries -->
 <script src="lib/angular.min.js"></script>
@@ -23,14 +16,15 @@
 
 <!-- Modules -->
 <script src="src/menuapp.module.js"></script>
+<script src="src/data.module.js"></script>
+
+<!-- Artifacts -->
 <script src="src/categories.controller.js"></script>
 <script src="src/items.controller.js"></script>
-<script src="src/data.module.js"></script>
 <script src="src/menudata.service.js"></script>
 <script src="src/categories.component.js"></script>
 <script src="src/items.component.js"></script>
 <script src="src/routes.js"></script>
-
 
 </body>
 </html>

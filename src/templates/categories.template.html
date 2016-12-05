@@ -1,8 +1,7 @@
-<!-- <h3>Title: {{ $ctrl.myTitle }}</h3> -->
 <span>Categories:</span>
-<ol>
+<ul>
   <li ng-repeat="category in $ctrl.categories">
-    <a ui-sref='items({short_name: category.short_name})' ng-click='$ctrl.getCategoryName(category.name)'> 
+    <a ui-sref='items({short_name: category.short_name})'> 
     {{ category.name }} ( {{ category.short_name }} )</a>
    </li>
-</ol>
+</ul>

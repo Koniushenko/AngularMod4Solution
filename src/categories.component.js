@@ -6,11 +6,9 @@
   		controller: CategoriesComponentController,
 		bindings: {
 		    categories: '<'
-		    // myTitle: '@title',
-		    // onRemove: '&'
-		}
+		    }
 	});
-	// CategoriesComponentController.$inject = ['MenuDataService'];
+	
     function CategoriesComponentController() {
 	var $ctrl = this;	
 	};

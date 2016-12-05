@@ -7,8 +7,6 @@
 		bindings: {
 		    items: '<',
 		    name: '<'
-		    // myTitle: '@title',
-		    // onRemove: '&'
 		}
 	});
 	function ItemsComponentController() {
